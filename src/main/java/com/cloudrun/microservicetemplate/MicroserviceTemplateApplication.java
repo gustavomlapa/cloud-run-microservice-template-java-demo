@@ -42,9 +42,10 @@ public class MicroserviceTemplateApplication {
 }
 
 public class FirstExample {
+   //TODO: move this to a config file 
    static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
-   static final String USER = "guest";
-   static final String PASS = "guest123";
+   static final String USER = "guest1";
+   static final String PASS = "myPassword";
    static final String QUERY = "SELECT id, first, last, age FROM Employees";
 
    public static void main(String[] args) {
